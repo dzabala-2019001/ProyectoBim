@@ -1,0 +1,341 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoBim2019001",
+    "dateExported": "2024-02-23T00:17:28.213Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "68aae5c7-036f-4da0-9ce0-a8c540e988e8",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-22T23:03:06.039Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-02-22T23:03:14.651Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-22T23:03:25.067Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "7e7fbef3-2b24-4728-8906-07f93f2aab6c",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "68aae5c7-036f-4da0-9ce0-a8c540e988e8",
+            "name": "testU",
+            "url": "localhost:2622/testU",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-22T23:07:09.404Z",
+            "modified": "2024-02-22T23:07:21.632Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dbb8b247-6208-4975-8fbc-d06fe820a4af",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "68aae5c7-036f-4da0-9ce0-a8c540e988e8",
+            "name": "RegisterU",
+            "url": "localhost:2622/registerU",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-22T23:09:43.212Z",
+            "modified": "2024-02-23T00:08:39.628Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Carlos"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Carlos"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Carlos"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Carlos@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8788eb09-0a98-4d3d-ad53-e39268f7e15b",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "68aae5c7-036f-4da0-9ce0-a8c540e988e8",
+            "name": "loginU",
+            "url": "localhost:2622/loginU",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-22T23:12:24.817Z",
+            "modified": "2024-02-23T00:08:46.852Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "Carlos"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ab23f399-e147-4d20-9a40-d22ad009f84f",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "testP",
+            "url": "localhost:2622/test",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-22T23:21:33.165Z",
+            "modified": "2024-02-22T23:21:39.557Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9c23d8a7-11b8-4f55-b4fb-999fcb97af4a",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "RegisterP",
+            "url": "localhost:2622/registerP",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-22T23:22:05.790Z",
+            "modified": "2024-02-22T23:34:37.760Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Silla"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Jardin"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "12"
+                    },
+                    {
+                        "name": "price",
+                        "value": "Q6800.00"
+                    },
+                    {
+                        "name": "category",
+                        "value": "Casa"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7ba9508c-2c96-4da3-8a5e-918d306683d8",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "ObtenerP",
+            "url": "localhost:2622/obtenerP",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-22T23:26:02.694Z",
+            "modified": "2024-02-22T23:26:27.903Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "38bedfbb-aa3a-4727-b4d9-3a50d6ad1d39",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "DeleteP",
+            "url": "localhost:2622/deletePr/65d7d7d472eb867ea7b225a9",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-22T23:29:33.900Z",
+            "modified": "2024-02-22T23:31:24.671Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7b1ef2ad-8e5e-4d9d-82ea-f860e4e790ef",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "UpdateP",
+            "url": "localhost:2622/updateP/65d7d953cce285c392353d91",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-02-22T23:33:22.141Z",
+            "modified": "2024-02-22T23:33:51.153Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Laptop"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "504c72ed-b053-428b-a48e-4c4ede6cf102",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "1f7a32fd-e54e-4d72-83ed-8dedb0a6773c",
+            "name": "SearchP",
+            "url": "localhost:2622/search",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-22T23:35:01.462Z",
+            "modified": "2024-02-22T23:37:00.603Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Silla"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c9270033-ef61-45aa-9fe3-6c66faceae81",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "TestC",
+            "url": "localhost:2622/testC",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-02-22T23:43:05.614Z",
+            "modified": "2024-02-22T23:44:11.957Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a83d3e8b-e75c-458f-a6d0-bdfa5d184d22",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "SaveC",
+            "url": "localhost:2622/saveC",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-02-22T23:46:57.805Z",
+            "modified": "2024-02-22T23:50:11.102Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Habitacion"
+                    },
+                    {
+                        "name": "description",
+                        "value": "camas, almoadas, etc.."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9fdbb09c-6448-4ec9-b6b8-3fc0a61a0e51",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "ObtnerC",
+            "url": "localhost:2622/obtenerCT",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-02-22T23:50:33.394Z",
+            "modified": "2024-02-22T23:51:07.112Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75be99d4-f4dc-40fc-8520-23c1a315f5a3",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "UpdateC",
+            "url": "localhost:2622/updateCT/65d7ddb42c51a9880e8f0a2d",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2024-02-22T23:54:07.159Z",
+            "modified": "2024-02-22T23:54:39.959Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Hogar"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1348aba8-11e1-458c-be2c-4a294e01a3e7",
+            "colId": "b72ca0cd-4524-4ca8-990e-59c3805c1737",
+            "containerId": "aab93315-83e7-4254-a581-837ce29bb853",
+            "name": "DeleteC",
+            "url": "localhost:2622/deleteC/65d7dd3e2c51a9880e8f0a2b",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2024-02-22T23:58:45.432Z",
+            "modified": "2024-02-22T23:59:02.388Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
